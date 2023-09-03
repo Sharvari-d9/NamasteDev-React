@@ -1,13 +1,13 @@
 # NamasteDev-React
 
-_What is CDN_
+# _What is CDN_
 
 - 
 
-_Cross Origin_
+# _Cross Origin_
 
 
-_What is react_
+# _What is react_
 
 - Javascript library created by Meta developers
 
