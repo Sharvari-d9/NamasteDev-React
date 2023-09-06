@@ -34,3 +34,14 @@
 - ^ or ~ symbol means that either take this version, or automatically update it if any other update is available
 - ^ - minor
 - ~ - major
+
+# package-lock.json
+
+- keeps the track of the exact verion of all packages installed
+- to avoid compatiblity issues for example to avoid discrepancy like code works in dev but not in production
+
+# node_modules
+
+- contains all the code that we fetch from npm
+
+- Transetive dependency
