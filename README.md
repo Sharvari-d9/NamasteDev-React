@@ -4,12 +4,12 @@
 
 - 
 
-# _Cross Origin_
+## _Cross Origin_
 
 - 
 
 
-# _What is react_
+## _What is react_
 
 - Javascript library created by Meta developers
 
@@ -19,28 +19,28 @@
 
 - it can work in whole page or only as a part of a page as well
 
-# _Order of the script inclusion file_
+## _Order of the script inclusion file_
 
 - Yes it matter, cause that script order is the way how the libraries are included in your application and if the order is changed it throws error for the parts where you are using React
 - Error : Uncaught ReferenceError: React is not defined
 
 
-# Render
+## Render
 
 - replaces the existing code of that id 
 
-# Dependency
+## Dependency
 
 - ^ or ~ symbol means that either take this version, or automatically update it if any other update is available
 - ^ - minor
 - ~ - major
 
-# package-lock.json
+## package-lock.json
 
 - keeps the track of the exact verion of all packages installed
 - to avoid compatiblity issues for example to avoid discrepancy like code works in dev but not in production
 
-# node_modules
+## node_modules
 
 - contains all the code that we fetch from npm
 
