@@ -29,6 +29,10 @@
 
 - replaces the existing code of that id 
 
+## package.json
+
+- contains all the config for the npm 
+
 ## Dependency
 
 - ^ or ~ symbol means that either take this version, or automatically update it if any other update is available
@@ -45,3 +49,4 @@
 - contains all the code that we fetch from npm
 
 - Transetive dependency
+- if you have package and package-lock json , we can recreate node modules hence we dont need to pushed it to git
