@@ -1,0 +1,25 @@
+{
+  "name": "namastedev-react",
+  "version": "1.0.0",
+  "description": "This is for React app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharvari-d9/NamasteDev-React.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Sharvari Dongre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharvari-d9/NamasteDev-React/issues"
+  },
+  "homepage": "https://github.com/Sharvari-d9/NamasteDev-React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

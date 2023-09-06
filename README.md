@@ -28,3 +28,9 @@
 # Render
 
 - replaces the existing code of that id 
+
+# Dependency
+
+- ^ or ~ symbol means that either take this version, or automatically update it if any other update is available
+- ^ - minor
+- ~ - major
