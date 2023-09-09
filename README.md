@@ -52,7 +52,34 @@
 ## node_modules
 
 - contains all the code that we fetch from npm
-
-- Transitive dependency
+- huge because of transitive dependencies
 - if you have package and package-lock json , we can recreate node modules hence we dont need to pushed it to git
+- we absolutely require to add package and package-lock.json to git
+- simple terms whatever can be recreated does not need to go on git
 
+## npx 
+
+- executes the package
+
+## including react into our code
+- we looked at the way by including cdn links, but that is not a good practice 
+
+## type in script node in html
+- if we dont mention the type by default the src is considered as plain javascript and hence if we do import in our src file, it throws error 
+- browser script dont understand import
+- hence we declare it as type as module
+
+## parcel
+- created a dev build for us and hosts the app on the local server
+- parcel also reflects the changes as soon as we save
+- HMR = hot module replacement
+- it uses file watching algorithm in the background - which is written in c++
+- caching - faster build (.parcel-cache)
+- image optimization 
+- minification of the file 
+- bundling of the files
+- compressing 
+- consistent hashing - keeps track of 
+- code splitting 
+- differential bundling - when app is hosted, it cant be open in different browser, different version, etc - all that i ssupported by parcel for your app
+#### it does a lot of things, please read https://parceljs.org/ 
