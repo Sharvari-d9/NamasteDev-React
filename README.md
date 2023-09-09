@@ -38,15 +38,21 @@
 - ^ or ~ symbol means that either take this version, or automatically update it if any other update is available
 - ^ - minor
 - ~ - major
+- version format is <major>.<minor>.<patch>
 
 ## package-lock.json
 
 - keeps the track of the exact verion of all packages installed
 - to avoid compatiblity issues for example to avoid discrepancy like code works in dev but not in production
 
+## Hash value in package-lock json
+
+- keeps the hash to verify the version 
+
 ## node_modules
 
 - contains all the code that we fetch from npm
 
-- Transetive dependency
+- Transitive dependency
 - if you have package and package-lock json , we can recreate node modules hence we dont need to pushed it to git
+
