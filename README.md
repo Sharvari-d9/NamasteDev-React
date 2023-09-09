@@ -83,3 +83,8 @@
 - code splitting 
 - differential bundling - when app is hosted, it cant be open in different browser, different version, etc - all that i ssupported by parcel for your app
 #### it does a lot of things, please read https://parceljs.org/ 
+
+
+## creating dev and production builds 
+- when dev build is created, the files generated are stored in dist folder and are hosted on local server
+- when production build is created the same files are replaced in the dist folder

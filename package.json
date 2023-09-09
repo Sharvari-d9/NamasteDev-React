@@ -2,7 +2,7 @@
   "name": "namastedev-react",
   "version": "1.0.0",
   "description": "This is for React app",
-  "main": "app.js",
+ 
   "scripts": {
     "test": "jest"
   },
