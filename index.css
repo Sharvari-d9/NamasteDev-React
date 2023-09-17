@@ -1,7 +1,17 @@
-h1{
-    color: purple;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid brown;
 }
 
-#heading{
-    color: maroon;
+.logo{
+    width: 200px;
+}
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
 }

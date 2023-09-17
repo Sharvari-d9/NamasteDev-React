@@ -58,7 +58,6 @@
 - simple terms whatever can be recreated does not need to go on git
 
 ## npx 
-
 - executes the package
 
 ## including react into our code
