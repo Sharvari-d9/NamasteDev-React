@@ -1,13 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// React Element
-//React Component
-const TItleHeading = () => (
-    <h1 className="head" tabIndex="5">
-        Namaste React by component - Previously JSX
-    </h1>
-);
+
 
 /**
  * React Components
@@ -22,10 +16,20 @@ const TItleHeading = () => (
  * why Components -> everything in the react app will be component, so handling or editing one component wont affect the others
  * with components the process becomes way more efficient
 */
+
+const element = <span>Span React Element</span>
+// React Element
+//React Component
+const titleHeading = (
+    <h1 className="head" tabIndex="5">
+        Namaste React by component - Previously JSX!
+    </h1>
+);
 const HeadingComponent = () =>(
     
     <div id="container">
-        <TItleHeading/> 
+       
+        {titleHeading}
         <h1>Namaste React functional component</h1>
     </div>
      
