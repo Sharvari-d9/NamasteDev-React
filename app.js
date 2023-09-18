@@ -43,10 +43,16 @@ const Header = () => {
 };
 const RestaurantCard = () => {
   return (
-    <div className="restaurant-card" style={{backgroundColor: "beige"}}>
-      <img className="restaurant-logo" alt="Aroma Picture" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jdfi5bh0hmdet7g7qk5z"></img>
+    <div className="restaurant-card" style={{ backgroundColor: "beige" }}>
+      <img
+        className="restaurant-logo"
+        alt="Aroma Picture"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jdfi5bh0hmdet7g7qk5z"
+      ></img>
       <h3>Aroma's Hyderabad House</h3>
       <h4>Biryani, North Indian</h4>
+      <h4>4.4</h4>
+      <h4>25 mins</h4>
     </div>
   );
 };
@@ -54,8 +60,16 @@ const Body = () => {
   return (
     <div className="body">
       <div className="search-bar">Search</div>
-      <div className="restaurant-container">Restaurant Container</div>
+      <div className="restaurant-container">
       <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      </div>     
     </div>
   );
 };
