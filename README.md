@@ -87,3 +87,8 @@
 ## creating dev and production builds 
 - when dev build is created, the files generated are stored in dist folder and are hosted on local server
 - when production build is created the same files are replaced in the dist folder
+
+## Config driven UI
+- dynamic UI based on the data retreieved 
+- eg: delivery option different in different cities, hence showing the list of restuarants only specific that area
+- important concept for system design interview
