@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid brown;
+    background-color: beige;
 }
 
 .logo{
@@ -10,8 +11,30 @@
 .nav-items > ul {
     display: flex;
     list-style-type: none;
+    font-size: 24px;
 }
 .nav-items > ul > li{
     padding: 10px;
     margin: 10px;
+}
+
+.restaurant-card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid purple;
+    
+}
+
+.search-bar{
+    padding: 10px;
+}
+
+.restaurant-logo{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.restaurant-card >h3{
+    padding: 10px;
 }
