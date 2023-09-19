@@ -2,11 +2,16 @@
 
 ## _What is CDN_
 
-- 
+- Content Delivery Network
+- it enables faster, cheaper, reliable and secure way to deliver content
+- how it works is replicating the content from the original server to the nearest location based on where the user is trying to access the content
 
-## _Cross Origin_
 
-- 
+## _Cross Origin Resource Sharing(CORS)_
+
+- mechanism by which the browser is made aware of origin of the resource other than current one from where the source would be loaded
+- if they are from different domain and required permission or access is not present then we cors origin error
+- this is more for security purposes rather than an error
 
 
 ## _What is react_
@@ -92,3 +97,6 @@
 - dynamic UI based on the data retreieved 
 - eg: delivery option different in different cities, hence showing the list of restuarants only specific that area
 - important concept for system design interview
+
+## .?(optional chaining)
+- 
