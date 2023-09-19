@@ -834,18 +834,25 @@ const RestaurantCard = (props) => {
     </div>
   );
 };
+/**
+ * unique id provides great optimization
+ * key is providing that 
+ */
 const Body = () => {
   return (
     <div className="body">
       <div className="search-bar">Search</div>
       <div className="restaurant-container">
         {resList.map((restaurant) => (
-          <RestaurantCard key={restaurant.card.card.info.id} resData={restaurant} />
+          <RestaurantCard
+            key={restaurant.card.card.info.id}
+            resData={restaurant}
+          />
         ))}
       </div>
     </div>
   );
-}; 
+};
 const AppLayout = () => {
   return (
     <div className="app">
