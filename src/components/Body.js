@@ -3,7 +3,7 @@ import resList from "../utils/mockData";
 import { useState } from "react";
 const Body = () => {
   //State variable - Super powerful variable
-  const [restaurantList,setRestaurantList] = useState(resList);
+  const [restaurantList,setRestaurantList] = useState(resList); // array destructuring 
 
   //Normal JS Variable
   let restaurantListJS = [
@@ -417,7 +417,7 @@ const Body = () => {
             console.log("Button Clicked");
             
             const filteredList = restaurantList.filter(
-              (res) => res.card.card.info.avgRating > 4
+              (res) => res.card.card.info.avgRating > 4.2
             )
             console.log(filteredList);
             setRestaurantList(filteredList)
