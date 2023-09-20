@@ -1,11 +1,11 @@
 import { CDN_URL  } from "../utils/constants"; // named varables import
-const RestaurantCard = (props) => {
+export const RestaurantCard = (props) => {
     const { resData } = props;
     const { cloudinaryImageId, name, cuisines, avgRating } =
       resData?.card.card.info;
     const { slaString } = resData?.card.card.info.sla;
   
-    console.log(resData);
+    // console.log(resData);
     return (
       <div className="restaurant-card" style={{ backgroundColor: "beige" }}>
         <img
