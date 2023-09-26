@@ -7,3 +7,15 @@
 - to do this React uses React fibre algorithm 
 - This is what React algorithm is all about in its core
 - it has efficient DOM manipulation algorithm that is why it is fast
+
+### Monolith Vs Microservices
+
+-  single responsbility process
+- 
+
+### two approach to fetch data 
+
+- loads UI -> make API call to fetch -> Render
+- Loads -> render whatever we can -> API call -> Re-Render
+- 2nd approach gives better UX
+- React has best render approach

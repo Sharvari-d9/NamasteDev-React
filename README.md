@@ -106,4 +106,4 @@
 so if you are modifying a data and check its value in the console, it will show modified data, but in UI it will still show old data. but we want updated data and that is where react hooks come into the picture. This DOM manipulation that should happen as fast as possible is what any library aims to optimize, be it angular, react, view, etc
 - useState() - used to create a state variable - maintains the state of the variable
 whenever a state variable updates React re-renders the components
-- useEffect()- 
+- useEffect() - used to call a callback function after rendering of the component is completed
